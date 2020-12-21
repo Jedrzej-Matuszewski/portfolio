@@ -5,51 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poiret+One&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <title> Jędrzej Matuszewski - Portfolio </title>
 </head>
 <body>
     <header>
-        <a href="#">Jędrzej Matuszewski 123</a>
+        <a href="#">Jędrzej Matuszewski</a>
     </header>
 
     <div class="main">
 
-    <div class="me">
+    <div class="me , div-cover">
          <div class="photo , m1">
              <img src="./photo/Profilowe-2.jpg" alt="Zdjęcie profilowe">
          </div>
-         <div class="about-me , m1">o mnie</div>
+         <div class="about-me , m1"><p> O mnie </p> Cześć, witam Cię w moim portfolio. Jestem Junior Front-End Developerem, który się ciągle rozwija. Jeśli tutaj jesteś to pewnie dlatego żę potrzebujesz strony albo masz jednak prowadzoną w niewłaściwy sposób. Jeśli tak to napisz, napewno się dogadamy. Niemniej jednak z jakiego powodu byś tu nie był szczerze zapraszam.  </div>
     </div>
 
-    <div class="technology , m1">   technologie
+    <div class="technology , m1"> <p> Technologie </p>
+        <img src="./photo/icon-tech/trio.png" alt="Technologie">
     </div>
 
-    <div class="projects , m1">projekty
+    <div class="projects , m1"> <p> Projekty </p>
+       <a href="https://www.onlydrive.pl/" target="_blank"><img src="./photo/onlydrive.png" alt="OnlyDrive.pl"></a>
     </div>
-
-    <div class="courses , m1">kursy
-
-    </div>
-
+    
     <div class="contact-header , m1">
-        skonatakuj sie ze mna
+        skonatakuj się ze mną
     </div>
 
-    <div class="contact">
-    <div class="contact-icon">
-        <div class="m1"><a href="mailto:dzikiegaski@wp.pl"><img src="foto/icon/mail/001-email.png" alt="Napisz maila"> jedmat11</br> @gmail.com </a></div>
-        <div class="m1"><a href="tel:+48660283440"><img src="foto/icon/phone/phone-call (1).png" alt="Numer telefonu"> +48 660283440 </a></div>
-        <div class="m1"><a href="https://www.facebook.com/"><img src="foto/icon/facebook/facebook (2).png" alt="Funpage na facebook-u"> Facebook</a></div>
-        <div class="m1"><a href="https://www.instagram.com/matuszewski_j/"><img src="foto/icon/instagram/instagram (1).png" alt="KOnto instagram"> Instagram</a></div>
+    <div class="contact , div-cover">
+    <div class=" contact-icon">
+        <div class="m1, m2"><a href="mailto:jedmat11@gmail.com"><img src="photo/icon/mail.png" alt="Napisz maila"> jedmat11@gmail.com </a></div>
+        <div class="m1, m2"><a href="tel:+48660283440"><img src="photo/icon/phone.png" alt="Numer telefonu"> +48 660283440 </a></div>
+        <div class="m1, m2"><a href="https://www.facebook.com/" target="_blank"><img src="photo/icon/facebook.png" alt="Funpage na facebook-u"> Facebook</a></div>
+        <div class="m1, m2"><a href="https://www.instagram.com/matuszewski_j/" target="_blank"><img src="photo/icon/instagram.png" alt="KOnto instagram"> Instagram</a></div>
     </div>
-    <div class="contact-form , m1">formularz</div>
+    <div class="contact-form , m1">
+    <form >
+    
+        <div class="text"><label for="fname">Imię i nazwisko</label></div>
+        <div class="placetowrite"><input type="text" placeholder="Imię i nazwisko"></div>
+    
+    
+        <div class="text"><label for="lname">W czym mógłbym Ci pomóc?</label></div>
+        <div class="textarea"><textarea placeholder="W czym mogłbym Ci pomóc?" ></textarea></div>
+    
+    
+        <div class="text"><label for="lname">Podaj swojego maila</label></div>
+        <div class="placetowrite"><input type="text"  placeholder="Mail"></div>
+    
+        <div class="text"><label for="lname">Twój numer telefonu</label></div>
+        <div class="placetowrite"><input type="number" placeholder="Numer telefonu"></div>
+    
+        <div class="text"><label for="country">Preferowany rodzaj kontaktu</label></div>
+        <select id="country" name="country">
+            <option >Mail</option>
+            <option >Telefon</option>
+        </select>
+        
+        <div class="button"><button id="sendBtn">Wyślij</button></div>
+    </form>
     </div>
 
     </div>
 
     <footer>
-
+        Jędrzej Matuszewski Ⓒ 2020
     </footer>
 
 

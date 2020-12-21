@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-family: 'Didact Gothic', sans-serif;
-    font-family: 'Poiret One', cursive;*/
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+      background-image: url(photo/email-pattern.png);
   }
-  
-  header{
-      font-family: 'Didact Gothic', sans-serif;
+
+header{
       min-height: 30px;
-      height: calc(20px + 4vw);
-      font-size: calc(12px + 2vw);
+      height: calc(20px + 6vw);
+      font-size: calc(7px + 5vw);
       line-height: calc(20px + 4vw);
       text-align: center;
       text-transform: uppercase;
@@ -19,27 +20,38 @@
       margin-top: 30px;
   }
 
-  header a{
+header a{
       color: black;
       text-decoration: none;
+      animation: header 5s infinite;
   }
 
-  header a :visited{
+header a :visited{
       color: black;
   }
+
+@keyframes header{
+    0%   {color: black;}
+    50%  {color:  #ffb366;}
+    100% {color: black;}
+}
 
 .m1{
     margin: 10px;
 }
-
-  div{
-      min-height: 100px;
-      background-image: linear-gradient(#ccc, transparent);
+div .m2{
+border: none;
+background-color: transparent;
+height: 60px;
+}
+div{
+      background-color: #eee;
       border: 1px solid darkgoldenrod; 
-      border-radius: 25px;   
+      border-radius: 25px;
+      text-align: center;  
   }
 
-  .main{
+.main{
       max-width: 1920px;
       border: none;
       background-image: none;
@@ -47,80 +59,178 @@
       text-align: center;
   }
 
-  .me{
+.div-cover{
+    background-color: transparent;
+    border: none;
+}
+
+.me{
     display: flex;
     justify-content: space-between;
     border: none;
-    width: 100%;
+    width: auto;
     background-image: none;
+    
   }
   
-  img{
+img{
       width: 100%;
       object-fit: hidden;
       
   }
 
-  .photo{
-      width: 20%;
-      justify-content: space-between;
+div .photo{
+      width: 30%;
       overflow: hidden;
       border: 3px solid rgb(61, 61, 61);
       
   }
-
-  .about-me{
+.about-me{
       width: 75%;
-      justify-content: space-between;
-      
-  }
-
-  .technology{
-      
-
-  }
-
-  .projects{
-      
-
-  }
-
-  .courses{
-      
-
-  }
-
-  .contact-header{
-      
-      height: 20px;
-  }
-
-  .contact{
-      display: flex;
-      justify-content: space-between;
+      line-height: calc(6px + 3vw);
+      font-size: calc(10px + 1vw);
+      background-color: transparent;
       border: none;
-      background-image: none;
+
+      
   }
 
-  .contact-icon{
-      width: 20%;
+.main p{
+        font-size: calc(10px + 2vw);
+      line-height: calc(1px + 7vw);
+      text-transform: uppercase;
+      text-decoration: underline;
+     }
+
+.technology img{
+    max-width: 700px;
+    width: 100;
+  }
+
+
+
+.projects {
+    overflow: hidden; 
+    max-height: 500px; 
+  }
+
+.contact-header{
+      
+      height: 60px;
       border: none;
-      background-image: none;
+      background-color: transparent;
+      font-size: 32px;
+      line-height: 60px;
+      text-transform: uppercase;
+
+  }
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: auto;
+    background-image: none;
+  }
+
+.contact-icon{
+      width: auto;
+      border: none;
+      background-color: transparent;
+      margin: 0 auto;
+      
+  }
+.contact-icon div{
+      height: 25%;
+      padding: 20px;
+  }
+
+.contact-icon img{
+      width: 64px;
+     }
+
+.contact-form{
+      width: 80%;
       
   }
 
-  .contact-form{
-      width: 50%;
-      
-  }
+form div {
+    border: none;
+    text-align: center;
+    
+    }
+form div:first-of-type{
+    margin-top: 40px;
+}
+
+div .text {
+    height: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+div .textarea{
+    height: 200px;
+}
+
+div .textarea textarea{
+    height: 160px;
+    width: 80%;
+}
+
+div .placetowrite{
+    height: 60px;
+}
+
+div .button{
+    height: 100px;
+    line-height: 100px;
+}
+
+div .button button{
+    height: 30px;
+    width: 200px;
+    background-color: #ffb366;
+}
 
 
+.contact div img{
+    display: block;
+    height: 64px;
+    margin: 0 auto;
+    object-fit: contain;
+    margin-bottom: 0;
+    transition: all 0.3s ease-in-out;
+    }
+    
+.contact div a{
+    float: left;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: calc(5px + 1vw);
+    }
 
+.main{
+        max-width: 1920px;
+        border: none;
+        background-image: none;
+        margin: auto;
+        text-align: center;
+        background-color: transparent;
+    }
 
+    footer{
+        width: 100%;
+        background-color: rgb(61, 61, 61);
+        color: white;
+        text-align: center;
+      } 
 
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     header{
         letter-spacing: 1px;
     }
@@ -129,30 +239,63 @@
         display: block;
     }
 
-    .contact{
-        display: block;
-        
+    .main{
+        font-size: calc(8px + 1vw);
     }
-
-    div{
-       
         
-    }
+    
     .contact-icon{
         width: auto;
+        height: 300px;
         
     }
-  
+    
+    .contact-header{
+        font-size: calc(13px + 2vw);
+    }
+
     .contact-form{
         width: auto;
     }
 
-    .photo{
+    div .photo{
         width: auto;
     }
   
     .about-me{
         width: auto;
     }
-  
+
+    .contact{
+        display: block;
+        }
+
+    .contact div img{
+        display: block;
+        float: left;
+        height: 60px;
+        width: 40px;
+        margin: 0 12px;
+        object-fit: contain;
+        margin-bottom: 0;
+        transition: all 0.3s ease-in-out;
+        }
+      
+       
+    .contact div a{
+        float: left;
+        text-align: left;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        line-height: 50px;
+        font-size: calc(10px + 1vw);
+        
+        }
+      
+    div .text {
+            height: 30px;
+            font-size: calc(10px + 1vw);
+        }
   }
