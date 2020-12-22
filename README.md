@@ -17,11 +17,11 @@
 
 ## Screenshots
 <p align="center">
-    <img src="./photo/demo-photo/1.png" alt="First Screenshot" width="600" height="231">
+    <img src="./photo/demo-photo/1.png" alt="First Screenshot" width="600" height="auto">
 </p>
 <p align="center">
-  <img src="./photo/demo-photo/2.png" alt="Second Screenshot" width="600" height="403">
+  <img src="./photo/demo-photo/2.png" alt="Second Screenshot" width="600" height="auto">
 </p>
 <p align="center">
-  <img src="./photo/demo-photo/3.png" alt="Third Screenshot" width="300" height="543">
+  <img src="./photo/demo-photo/3.png" alt="Third Screenshot" width="300" height="auto">
 </p>
