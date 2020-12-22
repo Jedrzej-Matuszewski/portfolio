@@ -20,7 +20,7 @@
          <div class="photo , m1">
              <img src="./photo/Profilowe-2.jpg" alt="Zdjęcie profilowe">
          </div>
-         <div class="about-me , m1"><p> O mnie </p> Cześć, witam Cię w moim portfolio. Jestem Junior Front-End Developerem, który się ciągle rozwija. Jeśli tutaj jesteś to pewnie dlatego żę potrzebujesz strony albo masz jednak prowadzoną w niewłaściwy sposób. Jeśli tak to napisz, napewno się dogadamy. Niemniej jednak z jakiego powodu byś tu nie był szczerze zapraszam.  </div>
+         <div class="about-me , m1"><p> O mnie </p> Cześć, witam Cię w moim portfolio. Jestem Junior Front-End Developerem, który się ciągle rozwija. Jeśli tutaj jesteś to pewnie dlatego że potrzebujesz strony albo masz jednak prowadzoną w niewłaściwy sposób. Jeśli tak to napisz, napewno się dogadamy. Niemniej jednak z jakiego powodu byś tu nie był szczerze zapraszam.  </div>
     </div>
 
     <div class="technology , m1"> <p> Technologie </p>
@@ -46,18 +46,18 @@
     <form >
     
         <div class="text"><label for="fname">Imię i nazwisko</label></div>
-        <div class="placetowrite"><input type="text" placeholder="Imię i nazwisko"></div>
+        <div class="placetowrite"><input type="text" placeholder="Imię i nazwisko" required></div>
     
     
         <div class="text"><label for="lname">W czym mógłbym Ci pomóc?</label></div>
-        <div class="textarea"><textarea placeholder="W czym mogłbym Ci pomóc?" ></textarea></div>
+        <div class="textarea"><textarea placeholder="W czym mogłbym Ci pomóc?" required></textarea></div>
     
     
         <div class="text"><label for="lname">Podaj swojego maila</label></div>
-        <div class="placetowrite"><input type="text"  placeholder="Mail"></div>
+        <div class="placetowrite"><input type="text"  placeholder="Mail" required></div>
     
         <div class="text"><label for="lname">Twój numer telefonu</label></div>
-        <div class="placetowrite"><input type="number" placeholder="Numer telefonu"></div>
+        <div class="placetowrite"><input type="number" placeholder="Numer telefonu" required></div>
     
         <div class="text"><label for="country">Preferowany rodzaj kontaktu</label></div>
         <select id="country" name="country">
@@ -65,7 +65,7 @@
             <option >Telefon</option>
         </select>
         
-        <div class="button"><button id="sendBtn">Wyślij</button></div>
+        <div class="button"><input type="submit" value="Wyślij"></div>
     </form>
     </div>
 

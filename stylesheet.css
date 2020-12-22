@@ -114,15 +114,14 @@ div .photo{
     max-height: 500px; 
   }
 
+
 .contact-header{
-      
       height: 60px;
       border: none;
       background-color: transparent;
       font-size: 32px;
       line-height: 60px;
       text-transform: uppercase;
-
   }
 
 .contact{
@@ -157,6 +156,7 @@ div .photo{
 form div {
     border: none;
     text-align: center;
+
     
     }
 form div:first-of-type{
@@ -176,6 +176,7 @@ div .textarea{
 div .textarea textarea{
     height: 160px;
     width: 80%;
+    resize: none;
 }
 
 div .placetowrite{
@@ -187,10 +188,16 @@ div .button{
     line-height: 100px;
 }
 
-div .button button{
+div .button input{
     height: 30px;
     width: 200px;
     background-color: #ffb366;
+    transition: all 0.2s ease-in-out;
+}
+
+div .button input:hover{
+    background-color: black;
+    color: #ffb366;
 }
 
 
@@ -202,6 +209,12 @@ div .button button{
     margin-bottom: 0;
     transition: all 0.3s ease-in-out;
     }
+
+.contact div img:hover{
+        height: 100px;
+        width: 80px;
+        }
+        
     
 .contact div a{
     float: left;
@@ -280,7 +293,11 @@ div .button button{
         margin-bottom: 0;
         transition: all 0.3s ease-in-out;
         }
-      
+        .contact div img:hover{
+            height: 60px;
+            width: 80px;
+            }
+            
        
     .contact div a{
         float: left;
