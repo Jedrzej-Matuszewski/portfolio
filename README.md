@@ -4,7 +4,7 @@
    Poniżej możesz zobaczyć moje portfolio wykonane tylko i wyłacznie w HTML i CSS
     <br />
     <br />
-    <a href="https://github.com/Jedrzej-Matuszewski/portfolio">Zobacz demo</a>
+    <a href="https://jedrzej-matuszewski.github.io/portfolio/">Zobacz demo</a>
   </p>
 </p>
 
