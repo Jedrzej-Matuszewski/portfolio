@@ -11,7 +11,7 @@
 ## Użyte technologie
 - Google Fonts - Strona korzysta z czcionki Open Sans
 - Flaticon.com - 4 ikonki potrzebne do kanałów kontaktpwych pochodzą z tej strony
-- Animacje z wykonane z wykorzystaniem @keyframes i pseudoklasy :hover
+- Animacje z wykorzystaniem @keyframes i pseudoklasy :hover
 - Responsive Web Design
 
 
